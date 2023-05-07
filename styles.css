@@ -1,7 +1,8 @@
-div{
-    display: flex;
-    align-items: baseline;
+div::before{
+	content:'Before Element';
+	color:red;
 }
-h3:hover{
-    color: red;
+div::after{
+	content:'After Element';
+	color:red;
 }
